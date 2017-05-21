@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-m": "react-generatr:new statefull component",
+    "ctrl-alt-,": "react-generatr:new stateless component",
+    "ctrl-alt-.": "react-generatr:new statefull container",
+    "ctrl-alt-/": "react-generatr:new stateless container"
+  }
+}

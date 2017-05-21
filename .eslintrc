@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["airbnb-base"],
+    "jsRules": {},
+    "rules": {},
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true
+    },
+    "globals": {
+      "atom": true
+    },
+    "rulesDirectory": []
+}

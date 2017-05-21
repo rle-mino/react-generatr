@@ -1,0 +1,40 @@
+{
+  "name": "react-generatr",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Generates React components",
+  "keywords": [
+    "react",
+    "generator",
+    "generate",
+    "components",
+    "container",
+    "redux",
+    "statefull",
+    "stateless"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "react-generatr:new statefull component",
+      "react-generatr:new stateless component",
+      "react-generatr:new statefull container",
+      "react-generatr:new stateless container"
+    ]
+  },
+  "repository": "https://github.com/rle-mino/react-generatr",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom": "^1.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "camel-case": "^3.0.0",
+    "pascal-case": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create new stateless component",
+        "command": "react-generatr:new stateless component"
+      },
+      {
+        "label": "Create new statefull component",
+        "command": "react-generatr:new statefull component"
+      },
+      {
+        "label": "Create new stateless container",
+        "command": "react-generatr:new stateless container"
+      },
+      {
+        "label": "Create new statefull container",
+        "command": "react-generatr:new statefull container"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "react-generatr",
+          "submenu": [
+            {
+              "label": "Stateless component",
+              "command": "react-generatr:new stateless component"
+            },
+            {
+              "label": "Statefull component",
+              "command": "react-generatr:new statefull component"
+            },
+            {
+              "label": "Stateless container",
+              "command": "react-generatr:new stateless container"
+            },
+            {
+              "label": "Statefull container",
+              "command": "react-generatr:new statefull container"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

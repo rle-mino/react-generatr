@@ -12,3 +12,5 @@
 
 ## 1.1.0 - optional folder
 * create the component / container in a folder or not
+
+## 1.1.1 - fix semi column replacement

@@ -9,3 +9,6 @@
 * path to container
 * shortcuts are now available natively
 * a little message shows you what you are generating
+
+## 1.1.0 - optional folder
+* create the component / container in a folder or not
